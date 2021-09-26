@@ -10,12 +10,9 @@ public class Main {
          * w innym wypadku "Niepodzielny przez 3" użyj kontrukcji if else
          * */
         int wiek = 21;
-        if(wiek % 3 == 0)
-        {
+        if (wiek % 3 == 0) {
             System.out.println("Podzielny przez 3");
-        }
-        else
-        {
+        } else {
             System.out.println("Niepodzielny przez 3");
         }
 
@@ -23,7 +20,7 @@ public class Main {
         /* zad.2 użyj parametru trójargumentowego aby sprawdzić parzystośc nr. indeksu */
         int numerIndeksu = 59937;
         boolean czyParzysty = (numerIndeksu % 2 == 0) ? true : false;
-        if(czyParzysty)
+        if (czyParzysty)
             System.out.println("Numer indeksu jest parzysty");
         else
             System.out.println("numer indeksu jest nieparzysty");
@@ -36,7 +33,7 @@ public class Main {
         System.out.print("Podaj cenę: ");
         double cena = scan.nextDouble();
 
-        if(cena > 45)
+        if (cena > 45)
             System.out.println("Kosztuje więcej niż 45 zł. Drogo.");
         else if (cena < 5.50)
             System.out.println("Kosztuje mniej niż 5.50 zł. Pewnie oszustwo.");
