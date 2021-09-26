@@ -17,10 +17,12 @@ public class Main {
         String imie = scan.next();
         System.out.print("Podaj nazwisko: ");
         String nazwisko = scan.next();
+        System.out.print("Podaj wiek: ");
+        int wiek = scan.nextInt();
         System.out.print("Podaj numer albumu: ");
         int numerIndexu = scan.nextInt();
-        System.out.println("Witaj " + imie + " " + nazwisko + " " + numerIndexu);
-        System.out.printf("Witaj %s %s %d \n", imie, nazwisko, numerIndexu);
+        System.out.println("Witaj " + imie + " " + nazwisko + ". Twój numer indeksu to: " + numerIndexu + ", twój wiek to: " + wiek);
+        System.out.printf("Witaj %s %s. Twój numer indeksu to %d, a twój wiek to %d \n", imie, nazwisko, numerIndexu, wiek);
 
 
 
