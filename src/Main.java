@@ -10,13 +10,12 @@ public class Main {
         przypisać do niej wartości i wyświetlić */
         Scanner scan = new Scanner(System.in);
         double[] tab = new double[5];
-        for (int i = 0; i < tab.length; i++)
-        {
-            System.out.printf("Podaj %d-ty wyraz tablicy: ", i+1);
+        for (int i = 0; i < tab.length; i++) {
+            System.out.printf("Podaj %d-ty wyraz tablicy: ", i + 1);
             tab[i] = scan.nextDouble();
         }
         System.out.print("Zawartośc tablicy: ");
-        for (double liczba: tab) {
+        for (double liczba : tab) {
             System.out.print(liczba + " ");
         }
 
