@@ -30,19 +30,19 @@ public class Main {
 
 
         /*
-        *    zad.2 Napisz kod który będzie wykonywał operacje: dodawania, odejmowania,
-        *    mnożenia, dziealenia i modulo na zmiennych:
-        *    a) liczbaA i liczbaB, dowolne liczby calkowite (int),
-        *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
-        *  */
+         *    zad.2 Napisz kod który będzie wykonywał operacje: dodawania, odejmowania,
+         *    mnożenia, dziealenia i modulo na zmiennych:
+         *    a) liczbaA i liczbaB, dowolne liczby calkowite (int),
+         *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
+         *  */
 
         //a)
         int liczbaA = 30, liczbaB = 4;
-        System.out.printf("%d + %d = %d\n",liczbaA, liczbaB, liczbaA + liczbaB);
-        System.out.printf("%d - %d = %d\n",liczbaA, liczbaB, liczbaA - liczbaB);
-        System.out.printf("%d * %d = %d\n",liczbaA, liczbaB, liczbaA * liczbaB);
-        System.out.printf("%d / %d = %d\n",liczbaA, liczbaB, liczbaA / liczbaB);
-        System.out.printf("%d mod %d = %d\n",liczbaA, liczbaB, liczbaA % liczbaB);
+        System.out.printf("%d + %d = %d\n", liczbaA, liczbaB, liczbaA + liczbaB);
+        System.out.printf("%d - %d = %d\n", liczbaA, liczbaB, liczbaA - liczbaB);
+        System.out.printf("%d * %d = %d\n", liczbaA, liczbaB, liczbaA * liczbaB);
+        System.out.printf("%d / %d = %d\n", liczbaA, liczbaB, liczbaA / liczbaB);
+        System.out.printf("%d mod %d = %d\n", liczbaA, liczbaB, liczbaA % liczbaB);
 
 
         double liczbaX = 50.5, liczbaY = 2.5;
@@ -52,8 +52,6 @@ public class Main {
         System.out.printf("%f * %f = %f\n", liczbaX, liczbaY, liczbaX * liczbaY);
         System.out.printf("%f / %f = %f\n", liczbaX, liczbaY, liczbaX / liczbaY);
         System.out.printf("%f mod %f = %f\n", liczbaX, liczbaY, liczbaX % liczbaY);
-
-
 
 
     }
