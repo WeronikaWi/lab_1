@@ -19,12 +19,6 @@ public class Main {
         boolean prawdaCzyFalsz = true;
         char znak = 't';
         String wyraz = "cokolwiek";
-        /*System.out.print("Liczby całkowite to: ");
-        System.out.println(malaLiczba +", " +trocheWiekszaLiczba + ", " + liczbaCalkowita + " i " + bardzoDuzaLiczba);
-        System.out.print( "Pozostałe liczby to: ");
-        System.out.println(malyUlamek + " i " + duzyUlamek );
-        System.out.println("Jest też bool: " + prawdaCzyFalsz);
-        System.out.println("I znak: "+znak + " oraz wyraz: " + wyraz);*/
 
         System.out.printf("byte: %d\nshort: %d\nint: %d\nlong: %d\n", malaLiczba, trocheWiekszaLiczba, liczbaCalkowita, bardzoDuzaLiczba);
         System.out.printf("float: %f\ndouble: %f\n", malyUlamek, duzyUlamek);
