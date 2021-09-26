@@ -7,8 +7,8 @@ public class Main {
         System.out.print( "Siała baba mak. ");
         System.out.println("Nie wiedziała jak." );
         System.out.printf( "A %s wiedział, nie %s \n", "dziad", "powiedział");
-        System.out.printf("Napisałam %d linie tekstu i nie pamiętam co było dalej", 4);
-        System.out.println("Nie ");
+        System.out.printf("Napisałam %d linie tekstu i nie pamiętam co było dalej\n", 4);
+        System.out.println("Nie chce mi się formatować. " + "Ale plusy też dają radę" + ".");
 
     }
 }
